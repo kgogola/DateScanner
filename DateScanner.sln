@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateScanner", "DateScanner\DateScanner.csproj", "{108C8AE6-C059-402E-93DD-308362FCA1F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataScannerTests", "DataScannerTests\DataScannerTests.csproj", "{2827D755-DC91-4C52-88D1-F39F5390F831}"
+	ProjectSection(ProjectDependencies) = postProject
+		{108C8AE6-C059-402E-93DD-308362FCA1F2} = {108C8AE6-C059-402E-93DD-308362FCA1F2}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{108C8AE6-C059-402E-93DD-308362FCA1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108C8AE6-C059-402E-93DD-308362FCA1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108C8AE6-C059-402E-93DD-308362FCA1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2827D755-DC91-4C52-88D1-F39F5390F831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2827D755-DC91-4C52-88D1-F39F5390F831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2827D755-DC91-4C52-88D1-F39F5390F831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2827D755-DC91-4C52-88D1-F39F5390F831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
